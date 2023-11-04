@@ -1,0 +1,36 @@
+.note-details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.date-time {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  white-space: pre-wrap;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  width: 82%;
+}
+
+@media (max-width: 425px) {
+  .date-time {
+    width: 35%;
+  }
+
+  .text {
+    width: 60%;
+  }
+
+  .note-details {
+    display: flex;
+    justify-content: space-between;
+  }
+}

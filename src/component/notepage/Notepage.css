@@ -1,0 +1,123 @@
+.nav-items {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 10vh;
+  gap: 20px;
+  padding: 15px;
+  background-color: #e8e8e8;
+}
+
+.ns-group-icon {
+  height: 55px;
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+}
+
+.ns-group-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.note-box {
+  height: 57vh;
+  background-color: #f7ecdc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.note-box ul {
+  list-style: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 90%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.user-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-color: #e8e8e8;
+  border-radius: 0 0 0 12px;
+}
+
+.input-box {
+  width: 95%;
+  display: flex;
+  gap: 15px;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.myTextarea {
+  resize: none;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 7px 0 0 7px;
+}
+
+.input-box img {
+  height: 22px;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 425px) {
+  .note-box {
+    height: 70vh;
+  }
+
+  .user-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: #e8e8e8;
+    border-radius: 0;
+  }
+
+  .input-box {
+    gap: 0;
+  }
+
+  .myTextarea {
+    font-size: 17px;
+    padding: 10px 10px;
+    border-radius: 7px 0 0 7px;
+  }
+
+  .input-box {
+    height: 80%;
+    width: 92%;
+    display: flex;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 7px;
+  }
+
+  .input-box img {
+    height: 20px;
+    margin-bottom: 10px;
+  }
+}
