@@ -27,7 +27,7 @@ export default function Form({ closeWindow, toggleModal, pushNewGrp }) {
       { color: "#0047ff", bColor: "none" },
       { color: "#6691ff", bColor: "none" },
     ];
-    arr[i].bColor = "3px solid black";
+    arr[i].bColor = `3px solid ${arr.color}`;
     setColor(col);
     setColorArr(arr);
   };
